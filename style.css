@@ -16,14 +16,13 @@ header{
 }
 #logo{
     float:left;
-    margin:10px;
+    margin:auto 10px auto 100px;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
-    background-color: #774C9D;
+    background-color: rgb(132, 111, 165);
     border-radius:50%;
-    left:200px;
-    top:0px;
+  
 }
 h1{
     background-color: rgb(146, 106, 170);
@@ -34,11 +33,13 @@ nav{
 
     display:flex;
     justify-content: center;
-    margin:15px;
+    
     max-width: 960px;
     font-size: 25px;
 }
 
+nav p{
+margin:10px;
 }
 table{
     border:2px solid black;
@@ -57,4 +58,5 @@ td{
 footer{
     background-color: rgba(45, 27, 58, 0.5);
     height:50px;
+    margin-left: 20px;
 }
