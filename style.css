@@ -16,7 +16,7 @@ header{
 }
 #logo{
     float:left;
-    margin:auto 10px auto 400px;
+    margin:auto 10px auto 450px;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
@@ -33,13 +33,19 @@ nav{
 
     display:flex;
     justify-content: center;
-    margin-left: 400px;
+    margin-left: 0px;
     max-width: 960px;
     font-size: 25px;
 }
 
 nav p{
 margin:20px;
+}
+a:visited{
+    color:rgb(119, 63, 119);
+}
+a:link{
+    color:rgb(144, 104, 238);
 }
 table{
     border:2px solid black;
