@@ -1,12 +1,12 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(https://yastatic.net/s3/bro-bg-store/44a1bfe2-becc-4886-a41e-d9510f536bc4.webp);
+background-image: url(https://www.frederikvercruysse.be/content/blauw-6983_001.jpg);
  }
-main{
+main{clear:both;
     max-width:960px;
      margin:0 auto;
     margin-top:20px; 
     padding:10px;
-    text-align:center;
+    vertical-align:center;
     font-size: 14px;
    
 }
@@ -16,8 +16,8 @@ header{
 #logo{
     float:left;
     margin:10px;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     border-radius:60%;
 }
 h1{
@@ -26,12 +26,19 @@ h1{
     font-size: 20px;
 }
 nav{
-    clear:both;
+    
     display:inline-block;
     margin:10px;
     max-width: 960px;
 }
+
+tr:nth-child(2n) { 
+background-color: rgb(182, 230, 236);
+ }
+ tr:nth-child(2n+1) { 
+    background-color: rgb(232, 199, 235);
+     }
 footer{
-    background-color: rgb(92, 167, 180);
+    background-color: rgb(123, 180, 190);
     height:30px;
 }
