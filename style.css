@@ -1,5 +1,5 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(https://www.frederikvercruysse.be/content/blauw-6983_001.jpg);
+background-image: url(https://img1.goodfon.ru/original/2430x2160/f/8d/nebo-oboi-gory-android-zakat.jpg);
  }
 main{clear:both;
     max-width:960px;
@@ -11,7 +11,7 @@ main{clear:both;
    
 }
 header{
-    background-color: rgb(174, 211, 211);
+    background-color: rgb(187, 125, 189);
 }
 #logo{
     float:left;
@@ -21,7 +21,7 @@ header{
     border-radius:60%;
 }
 h1{
-    background-color: azure;
+    background-color: rgb(202, 175, 219);
     padding:10px;
     font-size: 20px;
 }
@@ -33,12 +33,16 @@ nav{
 }
 
 tr:nth-child(2n) { 
-background-color: rgb(182, 230, 236);
+background-color: rgb(196, 132, 141);
  }
  tr:nth-child(2n+1) { 
-    background-color: rgb(232, 199, 235);
-     }
+    background-color: rgb(156, 146, 170);
+}
+td{
+    width:25px;
+    height:15px ;
+}
 footer{
-    background-color: rgb(123, 180, 190);
+    background-color: rgba(45, 27, 58, 0.5);
     height:30px;
 }
