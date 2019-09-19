@@ -1,9 +1,9 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
-clear:both;}
+background-image: url(https://yastatic.net/s3/bro-bg-store/44a1bfe2-becc-4886-a41e-d9510f536bc4.webp);
+ }
 main{
     max-width:960px;
-    background-image: url(https://yastatic.net/s3/bro-bg-store/44a1bfe2-becc-4886-a41e-d9510f536bc4.webp);
-    margin:0 auto;
+     margin:0 auto;
     margin-top:20px; 
     padding:10px;
     text-align:center;
@@ -32,5 +32,6 @@ nav{
     max-width: 960px;
 }
 footer{
-    background-color: rgb(112, 216, 216);
+    background-color: rgb(92, 167, 180);
+    height:30px;
 }
