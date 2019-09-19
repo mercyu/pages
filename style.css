@@ -12,12 +12,12 @@ main{clear:both;
    
 }
 header{
-    background-color: rgb(187, 125, 189);
+    background-color: rgba(187, 125, 189, 0.3);
     height:160px;
 }
 #logo{
     float:left;
-    margin:auto 10px auto 450px;
+    margin:auto 10px auto 460px;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
@@ -26,7 +26,7 @@ header{
   
 }
 h1{
-    background-color: rgb(146, 106, 170);
+    background-color: rgba(146, 106, 170, 0.3);
     padding:10px;
     font-size: 35px;
 }
