@@ -1,5 +1,5 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
+background-image: url(http://static1.squarespace.com/static/5c297cf44eddecdc6f4654c5/5c299daa0ebbe85745e49cfc/5c2f7b90575d1ffffbf0dc12/1546617179226/?format=1500w);
  }
 main{clear:both;
     max-width:960px;
@@ -7,7 +7,7 @@ main{clear:both;
     margin-top:20px; 
     padding:10px;
     vertical-align:center;
-    font-size: 14px;
+    font-size: 20px;
    
 }
 header{
@@ -16,14 +16,16 @@ header{
 #logo{
     float:left;
     margin:10px;
-    width:200px;
-    height:200px;
-    border-radius:60%;
+    width:150px;
+    height:150px;
+    border:1px solid rgb(221, 245, 245);
+    border-radius:50%;
+    left:40%;
 }
 h1{
     background-color: rgb(146, 106, 170);
     padding:10px;
-    font-size: 20px;
+    font-size: 35px;
 }
 nav{
 
@@ -37,11 +39,12 @@ nav p a{
     height: 20px;
 }
 
+
 tr:nth-child(2n) { 
-background-color: rgb(196, 132, 141);
+background-color: rgb(196, 132, 180);
  }
  tr:nth-child(2n+1) { 
-    background-color: rgb(156, 146, 170);
+    background-color: rgb(180, 128, 223);
 }
 td{
     width:25px;
@@ -49,5 +52,5 @@ td{
 }
 footer{
     background-color: rgba(45, 27, 58, 0.5);
-    height:30px;
+    height:50px;
 }
