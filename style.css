@@ -1,5 +1,5 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(https://img1.goodfon.ru/original/2430x2160/f/8d/nebo-oboi-gory-android-zakat.jpg);
+background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
  }
 main{clear:both;
     max-width:960px;
@@ -21,15 +21,20 @@ header{
     border-radius:60%;
 }
 h1{
-    background-color: rgb(202, 175, 219);
+    background-color: rgb(146, 106, 170);
     padding:10px;
     font-size: 20px;
 }
 nav{
-    
+
     display:inline-block;
     margin:10px;
     max-width: 960px;
+}
+nav p a{
+    display:inline-block;
+    width: 30px;
+    height: 20px;
 }
 
 tr:nth-child(2n) { 
