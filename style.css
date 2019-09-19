@@ -1,6 +1,7 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
 background-image: url(http://static1.squarespace.com/static/5c297cf44eddecdc6f4654c5/5c299daa0ebbe85745e49cfc/5c2f7b90575d1ffffbf0dc12/1546617179226/?format=1500w);
- }
+background-size: 100%;
+}
 main{clear:both;
     max-width:960px;
      margin:0 auto;
@@ -18,9 +19,11 @@ header{
     margin:10px;
     width:150px;
     height:150px;
-    border:1px solid rgb(221, 245, 245);
+    border:2px solid rgb(221, 245, 245);
+    background-color: #774C9D;
     border-radius:50%;
-    left:40%;
+    left:200px;
+    top:0px;
 }
 h1{
     background-color: rgb(146, 106, 170);
@@ -29,16 +32,17 @@ h1{
 }
 nav{
 
-    display:inline-block;
-    margin:10px;
+    display:flex;
+    justify-content: center;
+    margin:15px;
     max-width: 960px;
-}
-nav p a{
-    display:inline-block;
-    width: 30px;
-    height: 20px;
+    font-size: 25px;
 }
 
+}
+table{
+    border:2px solid black;
+}
 
 tr:nth-child(2n) { 
 background-color: rgb(196, 132, 180);
