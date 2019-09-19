@@ -1,6 +1,5 @@
-body{
-     font-family: Georgia, 'Times New Roman', Times, serif;
-}
+body{font-family: Georgia, 'Times New Roman', Times, serif;
+clear:both;}
 main{
     max-width:960px;
     background-image: url(https://yastatic.net/s3/bro-bg-store/44a1bfe2-becc-4886-a41e-d9510f536bc4.webp);
