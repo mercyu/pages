@@ -39,10 +39,10 @@ nav{
 }
 
 nav p{
-margin:20px;
+margin-right:20px;
 }
 a:visited{
-    color:rgb(119, 63, 119);
+    color:rgb(116, 43, 116);
 }
 a:link{
     color:rgb(144, 104, 238);
