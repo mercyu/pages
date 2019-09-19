@@ -13,7 +13,7 @@ main{clear:both;
 }
 header{
     background-color: rgb(187, 125, 189);
-    height:100px;
+    height:160px;
 }
 #logo{
     float:left;
@@ -34,7 +34,6 @@ h2{
     margin: 30px auto 20px 0px;
 }
 nav{
-
     display:flex;
     justify-content: center;
     margin: 25px auto 25px 0px;
@@ -43,7 +42,7 @@ nav{
 }
 
 nav p{
-margin-right:20px;
+padding-right:20px;
 }
 a:visited{
     color:rgb(116, 43, 116);
@@ -70,5 +69,5 @@ footer{
     height:100px;
 }
 footer p{
-    margin: 20px;
+    padding: 30px;
 }
