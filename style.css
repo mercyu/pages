@@ -35,7 +35,7 @@ h2{
 }
 nav{
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 960px;
     font-size: 25px;
 }
@@ -60,7 +60,7 @@ background-color: rgb(196, 132, 180);
  tr:nth-child(2n+1) { 
     background-color: rgb(180, 128, 223);
 }
-td{
+td{text-align: center;
     width:25px;
     height:15px ;
 }
