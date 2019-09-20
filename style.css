@@ -1,6 +1,9 @@
 body{font-family: Georgia, 'Times New Roman', Times, serif;
 background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
-background-size: 100%;
+background-position: center;
+ background-size: cover;
+ width: 100%;
+ height: 100vh;
 }
 main{clear:both;
     max-width:960px;
@@ -14,10 +17,11 @@ main{clear:both;
 header{
     background-color: rgba(187, 125, 189, 0.9);
     height:160px;
+    position: relative;
 }
 #logo{
     float:left;
-    margin:auto 10px auto 460px;
+    margin:0px auto;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
