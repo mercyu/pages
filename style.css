@@ -17,8 +17,8 @@ main{clear:both;
 header{
     background-color: rgba(187, 125, 189, 0.9);
     height:160px;
+    width:100%;
     position: relative;
-    text-align: center;
 }
 #logo{
     float:left;
