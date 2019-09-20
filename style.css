@@ -15,14 +15,13 @@ main{clear:both;
    
 }
 header{
-    background-color: rgba(187, 125, 189, 0.9);
+    background-color: rgb(187, 125, 189);
     height:160px;
     width:100%;
-    position: relative;
 }
 #logo{
     float:left;
-    margin:0% 50%;
+    margin-left: 46%;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
@@ -31,7 +30,7 @@ header{
   
 }
 h1{
-    background-color: rgba(146, 106, 170, 0.9);
+    background-color: rgb(146, 106, 170);
     padding:10px;
     font-size: 35px;
 }
