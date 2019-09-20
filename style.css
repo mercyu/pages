@@ -21,7 +21,7 @@ header{
 }
 #logo{
     float:left;
-    margin-left: 46%;
+    margin-left: 460px;
     width:150px;
     height:150px;
     border:2px solid rgb(221, 245, 245);
@@ -59,7 +59,7 @@ table{text-align: center;
 }
 
 tr:nth-child(2n) { 
-background-color: rgb(196, 132, 180);
+background-color: rgb(214, 123, 191);
  }
  tr:nth-child(2n+1) { 
     background-color: rgb(180, 128, 223);
