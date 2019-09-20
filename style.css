@@ -17,7 +17,6 @@ main{clear:both;
 header{
     background-color: rgb(187, 125, 189);
     height:160px;
-    width:100%;
 }
 #logo{
     float:left;
@@ -59,7 +58,7 @@ table{text-align: center;
 }
 
 tr:nth-child(2n) { 
-background-color: rgb(214, 123, 191);
+background-color: rgb(214, 117, 190);
  }
  tr:nth-child(2n+1) { 
     background-color: rgb(180, 128, 223);
