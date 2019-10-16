@@ -5,10 +5,6 @@
     nav{
         padding-top:20px; 
     }
-    .header, footer{
-        width: fit-content;
-        }
-    }
     @media (min-width: 768px){
         main{
         max-width:960px;
