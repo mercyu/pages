@@ -5,9 +5,9 @@
     nav{
         padding-top:20px; 
     }
-    .header,footer{
-        width: 100%;
-    }
+    .header, footer{
+        width: fit-content;
+        }
     }
     @media (min-width: 768px){
         main{
