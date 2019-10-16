@@ -5,10 +5,11 @@
     nav{
         padding-top:20px; 
     }
-
+    .header,footer{
+        width: 100%;
+    }
     }
     @media (min-width: 768px){
- 
         main{
         max-width:960px;
         margin:0 auto;
@@ -37,13 +38,11 @@
         height:160px;
     }
     #logo{
-        
         width:150px;
         height:150px;
         border:2px solid rgb(221, 245, 245);
         background-color: rgb(132, 111, 165);
         border-radius:50%;
-      
     }
     h1{
         background-color: rgb(146, 106, 170);
@@ -52,15 +51,12 @@
         border-radius:20px;
     }
     main{
-       
         vertical-align:center;
         margin-top:20px; 
         padding:10px;
         font-size: 20px;
-       
     }
     nav{
-        
         font-size: 25px;
     }
     nav p{
