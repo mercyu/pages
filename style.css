@@ -36,6 +36,9 @@
     header{
         width:100%;
     }
+    header .col{
+        width: fit-content;
+    }
     .header{
         background-color: rgba(187, 125, 189, 0.8);
         border-radius: 20px;
