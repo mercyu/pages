@@ -1,6 +1,6 @@
-@media (min-width: 576px){
+@media (max-width: 768px){
     body{
-        width: fit-content;
+        width: 100%;
     }
     main{
        
