@@ -5,6 +5,9 @@
     nav{
         padding-top:20px; 
     }
+nav p{
+    display:block;
+}
     }
     @media (min-width: 768px){
  
