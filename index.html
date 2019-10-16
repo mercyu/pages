@@ -3,6 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>WEB</title>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" href="https://s.tcdn.co/d1f/9e3/d1f9e318-307b-3f81-a37c-4d8be4faba24/20.png" 
 type="image/png">
@@ -10,20 +17,25 @@ type="image/png">
 
   <body>
    <header>
-    <div class="header"><img id="logo" src="https://s.tcdn.co/d1f/9e3/d1f9e318-307b-3f81-a37c-4d8be4faba24/19.png" alt="logo"/>
+     <div class="container-fluid">
+    <div class="header">
+      <img id="logo" src="https://s.tcdn.co/d1f/9e3/d1f9e318-307b-3f81-a37c-4d8be4faba24/19.png" alt="logo"/>
       <h1>WEB</h1>
-     </div>
+     </div></div>
     </header>
 
   <main>
-    <div><nav class="nav">
-        <p><a href="#links" title="Нажмите для перехода к списку ссылок"> Список гиперссылок</a></p>
-        <p><a href="#table" title="Нажмите для перехода к таблице"> Таблица </a></p> 
-        <p><a href="#forms" title="Нажмите для перехода к форме"> Форма </a></p> 
-      </nav>
+    <div><nav class="container"> 
+      <div class="row justify-content-md-center">
+        <p class="col-md-2"><a href="#links" title="Нажмите для перехода к списку ссылок"> Список гиперссылок</a></p>
+        <p class="col-md-2"><a href="#table" title="Нажмите для перехода к таблице"> Таблица </a></p> 
+        <p class="col-md-2"><a href="#forms" title="Нажмите для перехода к форме"> Форма </a></p> 
+      </div>
+    </nav>
     </div> 
+
+    <div>
   <h2 id="links">Список гиперссылок</h2>
-  
 	<ol>
     <li><a href="http://example.com"> абсолютная ссылка </a></li>
     <li><a href="https://example.com"> абсолютная ссылка с другим протоколом </a></li>
@@ -171,6 +183,7 @@ type="image/png">
 
 		<input type="submit" value="отправить">
        </form>
+      </div>
    </main>
    <footer><p>Krasnodar, 2019</p></footer>
  </body>
