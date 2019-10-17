@@ -3,6 +3,7 @@
         background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
         color: black;
         background-size: cover;
+        font-size: 18px;
     }
     header{
         width:100%;
@@ -28,7 +29,6 @@
     main{ 
         max-width:960px;
         vertical-align:center;
-        font-size: 20px;
     }
     nav{
         font-size: 25px;
@@ -43,10 +43,10 @@
         text-align: center;
         border:2px solid black;
     }
-    tr:nth-child(2n) { 
+    tr:nth-child(2n){
         background-color: rgb(214, 117, 190);
     }
-    tr:nth-child(2n+1) { 
+    tr:nth-child(2n+1){
         background-color: rgb(180, 128, 223);
     }
     td{
