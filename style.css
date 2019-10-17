@@ -1,14 +1,3 @@
-/*@media (min-width: 576px){
-    body{
-        width: 100%;
-    }
-}
-    @media (min-width: 768px){
-        main{
-       
-        margin:0 auto;
-        }
-    }*/
     body{
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
@@ -64,10 +53,6 @@
         width:45px;
         height:20px;
     }
-    /*li img{
-        max-width: 90%;
-        max-height:10%;
-    }*/
     footer{
         background-color: rgba(45, 27, 58, 0.5);
         height:100px;
