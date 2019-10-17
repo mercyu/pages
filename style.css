@@ -60,8 +60,8 @@
         background-color: rgb(180, 128, 223);
     }
     td{
-        width:45%;
-        height:35%;
+        width:45px;
+        height:20px;
     }
     li img{
         max-width: 90%;
