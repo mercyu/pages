@@ -2,17 +2,8 @@
     body{
         width: 100%;
     }
-    nav{
-        padding-top:20px; 
-    }
 }
     @media (min-width: 768px){
-        main{
-        max-width:960px;
-        margin:0 auto;
-        }
-    }
-    @media (min-width: 992px){
         main{
         max-width:960px;
         margin:0 auto;
@@ -31,7 +22,6 @@
         background-color: rgba(187, 125, 189, 0.8);
         border-radius: 20px;
         max-width:960px;
-        margin:0 auto;
         height:160px;
     }
     #logo{
@@ -43,31 +33,21 @@
     }
     h1{
         background-color: rgb(146, 106, 170);
-        padding:10px;
         font-size: 35px;
         border-radius:20px;
     }
     main{
         vertical-align:center;
-        margin-top:20px; 
-        padding:10px;
         font-size: 20px;
     }
     nav{
         font-size: 25px;
     }
-    nav p{
-        padding-right:20px;
-        padding-inline-start: 0px;
-        }
     a:visited{
         color:rgb(116, 43, 116);
     }
     a:link{
         color:rgb(144, 104, 238);
-    }
-    h2{
-        margin: 30px auto 20px 0px;
     }
     table{
         text-align: center;
@@ -80,14 +60,14 @@
         background-color: rgb(180, 128, 223);
     }
     td{
-        width:25px;
-        height:15px ;
+        width:45%;
+        height:35%;
+    }
+    li img{
+        max-width: 90%;
     }
     footer{
         background-color: rgba(45, 27, 58, 0.5);
         height:100px;
         width: 100%;
     }
-    footer p{
-        padding: 30px;
-        }
