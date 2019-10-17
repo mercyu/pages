@@ -63,9 +63,10 @@
         width:45px;
         height:20px;
     }
-    li img{
+    /*li img{
         max-width: 90%;
-    }
+        max-height:10%;
+    }*/
     footer{
         background-color: rgba(45, 27, 58, 0.5);
         height:100px;
